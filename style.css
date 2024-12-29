@@ -1,0 +1,59 @@
+body {
+    background-color: wheat;
+}
+
+.header {
+    background-color: orange;
+    display: flex;
+}
+
+.name {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.login {
+    margin-left: 270px;
+    text-decoration: none;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+}
+
+.course {
+    background-color: orange;
+    place-items: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.text {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.img {
+    width: 500px;
+    margin-top: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    color: black;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
